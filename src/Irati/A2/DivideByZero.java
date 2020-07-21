@@ -1,0 +1,13 @@
+package Irati.A2;
+
+public class DivideByZero {
+
+    public static void main(String[] args) {
+        try {
+            System.out.println(5 / 0);
+        }
+        catch (Exception e){
+            System.out.println("You can't divide by zero");
+        }
+    }
+}
